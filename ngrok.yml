@@ -1,0 +1,11 @@
+---
+console_ui: false
+log: stdout
+log_level: debug
+web_addr: '0.0.0.0:4040'
+tunnels:
+  api:
+    proto: http
+    addr: 9292
+    inspect: false
+    bind_tls: true
